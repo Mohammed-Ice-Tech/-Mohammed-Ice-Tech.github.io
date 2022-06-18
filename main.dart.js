@@ -57934,7 +57934,7 @@ A.k0.prototype={}
 A.tC.prototype={}
 A.ty.prototype={
 ao(){var s=null,r="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",q=t.V,p=t.N,o=t.z,n=t.s
-return new A.Ik(new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),A.a([["assets/astrolabe/astrolabeImage1.png","assets/astrolabe/astrolabeImage2.png","assets/astrolabe/astrolabeImage3.png"],["assets/RV/flutter_RV1.png","assets/RV/flutter_RV2.png","assets/RV/flutter_RV3.png"]],t.X6),A.a([A.aP(["name","Steve jobs","title","CEO of Apple","image","assets/steve.jpg","rating",4,"description",r],p,o),A.aP(["name","Elon Musk","title","Founder Of SpaceX","image","assets/elon.webp","rating",4,"description",r],p,o)],t.gG),A.a(["Astrolabe","RendezVous"],n),A.a(["https://play.google.com/store/apps/details?id=com.astrolabetech.iremote&hl=en&gl=US","https://play.google.com/store/apps/details?id=com.circleofsoftware.RendezVous"],n),A.a(["Astrolabe","https://apps.apple.com/us/app/rendezvous-om/id1574373639"],n),B.n)}}
+return new A.Ik(new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),new A.bw(s,q),A.a([["assets/assets/astrolabe/astrolabeImage1.png","assets/assets/astrolabe/astrolabeImage2.png","assets/assets/astrolabe/astrolabeImage3.png"],["assets/assets/RV/flutter_RV1.png","assets/assets/RV/flutter_RV2.png","assets/assets/RV/flutter_RV3.png"]],t.X6),A.a([A.aP(["name","Steve jobs","title","CEO of Apple","image","assets/steve.jpg","rating",4,"description",r],p,o),A.aP(["name","Elon Musk","title","Founder Of SpaceX","image","assets/elon.webp","rating",4,"description",r],p,o)],t.gG),A.a(["Astrolabe","RendezVous"],n),A.a(["https://play.google.com/store/apps/details?id=com.astrolabetech.iremote&hl=en&gl=US","https://play.google.com/store/apps/details?id=com.circleofsoftware.RendezVous"],n),A.a(["Astrolabe","https://apps.apple.com/us/app/rendezvous-om/id1574373639"],n),B.n)}}
 A.Ik.prototype={
 O(a){return new A.vK(new A.CQ(new A.a3g(this,a.Y(t.w).f.a),null),B.bh,null)},
 h4(a){var s=0,r=A.Z(t.z)
@@ -57977,7 +57977,7 @@ d=A.f4(o,o,new A.aI(A.az(0,233,30,99),c),new A.aI(0,d),o,o,o,o,o,o,o,o,o,new A.a
 return A.adx(A.c8(o,new A.hr(new A.aj(0,1/0,a3.d,1/0),new A.CF(A.jd(B.aX,A.a([new A.b_(o,h,q,o),new A.eE(B.ep,o,o,new A.bm(B.a8,A.c8(o,A.cW(A.a([b,A.cW(A.a([new A.bm(B.aO,s,o),new A.bm(B.aO,k,o),new A.bm(B.aO,a1,o),new A.bm(B.aO,e,o),new A.bm(B.aO,A.hx(A.dp(m,A.Ng(p,5),o,o),new A.a36(g),d),o),new A.bm(B.zS,A.hx(B.LB,new A.a37(g),A.f4(o,o,new A.aI(B.F,c),o,o,o,o,o,o,o,o,o,o,new A.aI(new A.bM(A.f3(18),B.p),a),o,o,o,o,o,o)),o)],a0),B.r,B.C,B.K)],a0),B.r,B.dG,B.K),B.l,o,o,new A.d3(o,o,o,o,o,r,B.ag),o,o,o,o,o,o,o,o),o),o)],a0),B.b6),o),o),B.l,o,o,new A.d3(o,o,o,o,o,i,B.ag),o,o,o,o,o,o,o,j))},
 $S:371}
 A.a2Z.prototype={
-$0(){var s="assets/MOHAMMED_ABDULLAH_MOHAMMED.pdf",r=A.abk(s)
+$0(){var s="assets/assets/MOHAMMED_ABDULLAH_MOHAMMED.pdf",r=A.abk(s)
 r.download=s
 r.click()
 B.am.Gv(window,s,"CV")},
