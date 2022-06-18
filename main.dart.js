@@ -57977,9 +57977,9 @@ d=A.f4(o,o,new A.aI(A.az(0,233,30,99),c),new A.aI(0,d),o,o,o,o,o,o,o,o,o,new A.a
 return A.adx(A.c8(o,new A.hr(new A.aj(0,1/0,a3.d,1/0),new A.CF(A.jd(B.aX,A.a([new A.b_(o,h,q,o),new A.eE(B.ep,o,o,new A.bm(B.a8,A.c8(o,A.cW(A.a([b,A.cW(A.a([new A.bm(B.aO,s,o),new A.bm(B.aO,k,o),new A.bm(B.aO,a1,o),new A.bm(B.aO,e,o),new A.bm(B.aO,A.hx(A.dp(m,A.Ng(p,5),o,o),new A.a36(g),d),o),new A.bm(B.zS,A.hx(B.LB,new A.a37(g),A.f4(o,o,new A.aI(B.F,c),o,o,o,o,o,o,o,o,o,o,new A.aI(new A.bM(A.f3(18),B.p),a),o,o,o,o,o,o)),o)],a0),B.r,B.C,B.K)],a0),B.r,B.dG,B.K),B.l,o,o,new A.d3(o,o,o,o,o,r,B.ag),o,o,o,o,o,o,o,o),o),o)],a0),B.b6),o),o),B.l,o,o,new A.d3(o,o,o,o,o,i,B.ag),o,o,o,o,o,o,o,j))},
 $S:371}
 A.a2Z.prototype={
-$0(){var s=A.abk("assets/MOHAMMED_ABDULLAH_MOHAMMED.pdf")
-s.download="CV"
-s.click()
+$0(){var s="assets/MOHAMMED_ABDULLAH_MOHAMMED.pdf",r=A.abk(s)
+r.download=s
+r.click()
 return null},
 $S:0}
 A.a3_.prototype={
