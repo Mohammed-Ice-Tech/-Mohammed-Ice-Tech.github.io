@@ -3,7 +3,10 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "f2c4e1ce3abb6a64f20450bf6a02d960",
+  "assets/AssetManifest.json": "1bd08ed6c1ebba1425a809ddb2eef0a3",
+"assets/assets/astrolabe/astrolabeImage1.png": "dfe5e224de3e221100fe607ed2af6114",
+"assets/assets/astrolabe/astrolabeImage2.png": "e4b783816da596cdf6bbc29382065532",
+"assets/assets/astrolabe/astrolabeImage3.png": "3a587b65c2ab17daca298f80c09a1eaf",
 "assets/assets/code-removebg-preview.png": "713178445b7d7959cdb71f3ae4860d08",
 "assets/assets/elon.webp": "c9e4fc1707ac8ca2768a66538936f659",
 "assets/assets/IMG_20220216_220609.jpg": "7b5d30093b53bcc1b4446eb6ddad80c2",
@@ -18,6 +21,9 @@ const RESOURCES = {
 "assets/assets/portfilio1.png": "987c0b2d84c40c417809287dc4e5ba4e",
 "assets/assets/previewed-removebg-preview.png": "d6e0a6e0af26ba7b1cf25863096459af",
 "assets/assets/profile-removebg-preview.png": "e3f93505e0201fe50090487eb7cd69ff",
+"assets/assets/RV/flutter_RV1.png": "249d2fbf5f32b677b0436937ec2e36d1",
+"assets/assets/RV/flutter_RV2.png": "67cc2f7a8a0aa70d1d08ad312fb59aa2",
+"assets/assets/RV/flutter_RV3.png": "15b1a22ec9949e74cf8ad3d65bb40342",
 "assets/assets/steve.jpg": "c2ba05674aa2cddc27a69cef62dfba6f",
 "assets/FontManifest.json": "15350d1102e4e88ce3db08180997032d",
 "assets/fonts/Kanit-ExtraBold.ttf": "41df63b2d1938bf065ba71700f32b623",
@@ -38,9 +44,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "031cc0f6a7c77c023663b139c3d92039",
-"/": "031cc0f6a7c77c023663b139c3d92039",
-"main.dart.js": "4c1582a236ce06e0cbc2b4c132663c8b",
+"index.html": "fd8f5b9f7291f487d4bac81f8414d0b3",
+"/": "fd8f5b9f7291f487d4bac81f8414d0b3",
+"main.dart.js": "89c2c9b78431c333bfe5e6d5f6aae35b",
 "manifest.json": "d8fe34f7ae4c072a77b924e01dac8a50",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
