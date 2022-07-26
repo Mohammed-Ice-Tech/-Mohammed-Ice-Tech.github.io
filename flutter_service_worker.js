@@ -3,7 +3,8 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "71027eb39e4580a15f53abfa433b9e8b",
+  "assets/AssetManifest.json": "520ca89ab05992e200a57093ae9506c9",
+"assets/assets/acount_girl.png": "a9651c50db27b4cf7339109d90562597",
 "assets/assets/astrolabe/astrolabeImage1.png": "dfe5e224de3e221100fe607ed2af6114",
 "assets/assets/astrolabe/astrolabeImage2.png": "e4b783816da596cdf6bbc29382065532",
 "assets/assets/astrolabe/astrolabeImage3.png": "3a587b65c2ab17daca298f80c09a1eaf",
@@ -22,25 +23,25 @@ const RESOURCES = {
 "assets/FontManifest.json": "15350d1102e4e88ce3db08180997032d",
 "assets/fonts/Kanit-ExtraBold.ttf": "41df63b2d1938bf065ba71700f32b623",
 "assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
-"assets/NOTICES": "89a7434cf08042372de58cb44a2cfdb3",
+"assets/NOTICES": "88f262e271d06fcc72d0b375f511b44e",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "d1722d5cf2c7855862f68edb85e31f88",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "613e4cc1af0eb5148b8ce409ad35446d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "dd3c4233029270506ecc994d67785a37",
-"assets/shaders/ink_sparkle.frag": "37cf788f7a38184efe3ef3a5f08391c4",
-"canvaskit/canvaskit.js": "c2b4e5f3d7a3d82aed024e7249a78487",
-"canvaskit/canvaskit.wasm": "4b83d89d9fecbea8ca46f2f760c5a9ba",
-"canvaskit/profiling/canvaskit.js": "ae2949af4efc61d28a4a80fffa1db900",
-"canvaskit/profiling/canvaskit.wasm": "95e736ab31147d1b2c7b25f11d4c32cd",
+"assets/shaders/ink_sparkle.frag": "bb2f09705eebff3cafaaedd9ff45c211",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
-"flutter.js": "0816e65a103ba8ba51b174eeeeb2cb67",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "66bc707631d1035713e19ae770a9beba",
-"/": "66bc707631d1035713e19ae770a9beba",
-"main.dart.js": "f2f7aa14b6ad9379b77c44b453aa7e1c",
+"index.html": "a086d15835757d012edc9dcd6f4fe7e6",
+"/": "a086d15835757d012edc9dcd6f4fe7e6",
+"main.dart.js": "d7abca7ff7078911d8afc2415ad2711e",
 "manifest.json": "d8fe34f7ae4c072a77b924e01dac8a50",
 "version.json": "9b818ca9511483c901bed1545384376c"
 };
@@ -148,9 +149,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
